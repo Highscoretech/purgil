@@ -10,8 +10,8 @@ app.set("view engine", "ejs")
 
 app.use(express.static('static'))
 app.use(express.urlencoded({extended: true}))
-  
-app.listen(8080)
+const port = process.env.port || 3000
+app.listen(port)
 
 
 app.get('/', ((req,res)=>{
