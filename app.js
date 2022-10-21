@@ -9,7 +9,7 @@ app.set("view engine", "ejs");
 app.use(express.static("static"));
 app.use(express.urlencoded({ extended: true }));
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3100);
 
 app.get("/", (req, res) => {
   res.render("index", { title: "home" });

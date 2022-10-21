@@ -1,15 +1,15 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
-}
+} */
 
 /* For mobile */
 @media only screen and (max-width: 550px) {
-  .body {
+  /* .body {
     background-color: white;
     color: white;
-  }
+  } */
 
   /* .welcome {
     background-color: #04c42a;
@@ -18,31 +18,27 @@
     animation-iteration-count: 1;
   } */
 
-  #mobile {
+  /* #mobile {
     padding: 0;
     margin: 0;
-  }
-  .main {
-    position: fixed;
-    top: 30%;
-    left: 18%;
-  }
+  } */
 
-  .logo-left {
+
+  /* .logo-left {
     position: absolute;
     height: 150px;
-    /* top: -35px; */
+    top: -35px;
   }
 
-  .logo-right {
+  /* .logo-right {
     position: absolute;
     width: 80px;
     height: 199px;
     left: 333px;
     top: 420px;
-  }
+  }  */
 
-  #loading p {
+  /* #loading p {
     position: fixed;
     top: 73%;
     left: 28%;
@@ -53,41 +49,11 @@
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 23px;
-  }
+  } */
 
-  .main {
-    animation: move;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-  }
 
-  .welcome {
-    background-color: white;
-    animation-name: welcome;
-    position: relative;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-  }
 
-  @keyframes welcome {
-    from {
-      background-color: #04c42a;
-    }
-    to {
-      background-color: white;
-    }
-  }
-
-  @keyframes move {
-    from {
-      transform: translateX(300px);
-    }
-    to {
-      transform: translateX(0px);
-    }
-  }
-
-  .signup img {
+  /* .signup img {
     position: absolute;
     height: 85.68px;
     left: 366px;
@@ -232,224 +198,7 @@
   .footer-text a {
     text-decoration: none;
     color: #1a0c3d;
-  }
+  } */
 
-  #display {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    background: aliceblue;
-    border-radius: 40px 40px 0px 0px;
-    height: 700px;
-  }
-  .nav {
-    width: 100%;
-  }
-  .log {
-    width: 65%;
-    padding: 10px 14px;
-    float: left;
-  }
-  nav {
-    width: 30%;
-    padding: 6px 1px;
-    text-align: right;
-    left: 0%;
-  }
-  nav i {
-    color: rgb(124, 178, 124);
-    padding: 10px;
-  }
-  .container {
-    background-color: rgb(3, 9, 34);
-    height: 250px;
-    top: 8%;
-    left: 0%;
-  }
-  .run {
-    padding-top: 12px;
-  }
-  .container marquee {
-    padding: 2px;
-    background-color: rgb(21, 20, 20);
-    font-size: 11px;
-  }
-  .content {
-    padding: 4px;
-    border-radius: 12px;
-    box-shadow: 3px 6px 6px 0px rgba(0, 0, 0, 0.2),
-      4px 5px 5px 0px rgba(0, 0, 0, 0.19);
-  }
-  .content img {
-    border-radius: 12px;
-    box-shadow: 3px 6px 6px 0px rgba(0, 0, 0, 0.2),
-      4px 5px 5px 0px rgba(0, 0, 0, 0.19);
-  }
-  .menu {
-    overflow: hidden;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(3, 9, 34);
-    position: fixed;
-    display: flex;
-  }
-  .markett {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
-  .options {
-    /* margin: 14px;
-      padding: 7px; */
-    display: block;
-    display: flex;
-    text-align: center;
-    margin-left: 20px;
-    flex-direction: row;
-  }
-  .trade {
-    width: 22%;
-    position: unset;
-    padding: 5px;
-    margin: 2px;
-    text-align: center;
-  }
-  .trade i {
-    color: rgb(98, 160, 98);
-    font-size: 12px;
-    padding: 10px;
-    border-radius: 3px;
-    box-shadow: 3px 6px 6px 0px rgba(0, 0, 0, 0.2),
-      4px 5px 5px 0px rgba(0, 0, 0, 0.19);
-  }
-  .trade code {
-    color: rgb(3, 9, 34);
-    font-size: 12px;
-  }
-  .price {
-    float: none;
-    display: flex;
-    margin: 10px;
-    padding: auto;
-  }
-  .deposit {
-    width: 45%;
-    padding: 2px;
-    margin: 5px;
-    border-radius: 10px;
-    box-shadow: 3px 6px 6px 0px rgba(0, 0, 0, 0.2),
-      4px 5px 5px 0px rgba(0, 0, 0, 0.19);
-  }
-  .icon {
-    text-align: right;
-  }
-  .deposit i {
-    color: rgb(98, 160, 98);
-    font-size: 12px;
-    text-align: right;
-  }
-  .deposit-content {
-    display: flex;
-  }
-  .deposit code {
-    color: rgb(98, 160, 98);
-    font-size: 16px;
-    padding: 0px 8px;
-    width: 100%;
-    font-weight: bold;
-  }
-  .deposit p {
-    color: black;
-    font-size: 10px;
-    width: 80%;
-  }
-  .list-option {
-    display: flex;
-    color: rgb(98, 160, 98);
-    padding: 10px;
-  }
-  .list-option code {
-    color: black;
-  }
-  .market-spot {
-    width: 53%;
-    padding: 0px 10px;
-  }
-  .market-price {
-    padding: 0px 8px;
-  }
-  .market-hour {
-    padding: 0px 20px;
-  }
-  .price-list {
-    display: flex;
-
-    align-items: center;
-    width: 100%;
-    padding: 7px;
-    margin-top: 10px;
-    box-shadow: 3px 6px 6px 3px rgba(0, 0, 0, 0.2),
-      4px 5px 5px 0px rgba(0, 0, 0, 0.19);
-    border-radius: 11px;
-  }
-  .price-list .spot {
-    width: 53%;
-    padding: 0px 15px;
-  }
-  .price-list .spot code {
-    color: black;
-    font-weight: bold;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
-  .price-list .spot span {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-    font-weight: normal;
-    font-size: 10px;
-  }
-  .price-list .price {
-    width: 20%;
-  }
-  .price-list .duration {
-    width: 20%;
-  }
-  .price-list .duration button {
-    background: green;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    border: none;
-    border-radius: 4px;
-    width: 80%;
-  }
-  .market-menu {
-    width: 20%;
-    padding: 3px 5px;
-    margin: 0px 12px;
-    text-align: center;
-    justify-content: center;
-  }
-  .market-menu i {
-    padding: 0;
-    margin: 0;
-    color: rgb(98, 160, 98);
-    font-size: 21px;
-    font-weight: bold;
-  }
-  .market-menu code {
-    font-size: 11px;
-    color: white;
-  }
-  .view-all {
-    text-align: center;
-  }
-  .view-all a {
-    text-decoration: none;
-    color: rgb(98, 160, 98);
-    font-size: 15px;
-    padding: 12px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-      sans-serif;
-  }
+ 
 }

@@ -1,14 +1,14 @@
 let loading = document.getElementById("load");
 
-setTimeout(() => {
-  loading.textContent = "Loading...";
-  setTimeout(() => {
-    loading.textContent = "starting app...";
-    setTimeout(() => {
-      location.href = "/login";
-    }, 3000);
-  }, 3000);
-}, 3000);
+// setTimeout(() => {
+//   loading.textContent = "Loading...";
+//   setTimeout(() => {
+//     loading.textContent = "starting app...";
+//     setTimeout(() => {
+//       location.href = "/login";
+//     }, 3000);
+//   }, 3000);
+// }, 3000);
 
 {
   /* <div class="progress">
