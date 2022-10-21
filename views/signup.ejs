@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partial/head.ejs') %>
+  <body
+    style="
+      height: 100vh;
+      background-image: linear-gradient(white 65%, rgb(143, 143, 143));
+    "
+  >
+    <div class="signup">
+      <p>&larr;</p>
+      <img src="./images/sigup logo.png" alt="" />
+    </div>
+    <div class="signup-img">
+      <img src="./images/welcome photo.png" />
+    </div>
+    <div class="signup-btn">
+      <h2>Create your Account</h2>
+      <form class="form">
+        <div class="form-signup">
+          <input type="email" name="email" placeholder="Email" />
+          <input type="password" name="password" placeholder="Password" />
+          <input
+            type="password"
+            name="password"
+            placeholder="Confirm Password"
+          />
+        </div>
+        <div class="btn-signup">
+          <button class="btn">Continue</button>
+          <div class="btn-arrow">
+            <p class="btn-arrow-arrow">&gt;</p>
+          </div>
+        </div>
+      </form>
+
+      <div class="footer-page">
+        <div class="footer-page-link">
+          <h2>or sign up with</h2>
+          <div class="social-icons">
+            <button class="btn-link">
+              <a href="google.com"><img src="./images/icons8-google.svg" /></a>
+            </button>
+
+            <button class="btn-link">
+              <a href="facebook.com"
+                ><img src="./images/icons8-facebook.svg"
+              /></a>
+            </button>
+
+            <button class="btn-link">
+              <a href="twitter.com"
+                ><img src="./images/icons8-twitter.svg"
+              /></a>
+            </button>
+          </div>
+        </div>
+        <p class="footer-text">I have an account <a href="#">sign in</a></p>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
