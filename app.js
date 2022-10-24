@@ -22,3 +22,7 @@ app.get("/signup", (req, res) => {
 app.get("/login", (req, res) => {
   res.render("login", { title: "main" });
 });
+
+app.get("/main", (req, res) => {
+  res.render("main", { title: "main" });
+});
