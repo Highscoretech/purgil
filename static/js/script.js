@@ -23,3 +23,17 @@ let loading = document.getElementById("loading");
   ></div>
 </div>; */
 }
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: "1",
+  spaceBetween: -30,
+  centeredSlides: true,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    renderBullet: function (_, className) {
+      return '<span class="' + className + '">' + "</span>";
+    },
+  },
+});
