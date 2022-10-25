@@ -20,7 +20,7 @@ app.get("/signup", (req, res) => {
 });
 
 app.get("/login", (req, res) => {
-  res.render("login", { title: "main" });
+  res.render("login", { title: "Login" });
 });
 
 app.get("/main", (req, res) => {
