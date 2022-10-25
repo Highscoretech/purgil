@@ -1,14 +1,14 @@
 let loading = document.getElementById("loading");
 
-setTimeout(() => {
-  loading.style.display = "block";
-  //   setTimeout(() => {
-  //     loading.textContent = "starting app...";
-  //     setTimeout(() => {
-  //       location.href = "/login";
-  //     }, 3000);
-  //   }, 3000);
-}, 8000);
+// setTimeout(() => {
+//   loading.style.display = "block";
+//   setTimeout(() => {
+//     loading.textContent = "starting app...";
+//     setTimeout(() => {
+//       location.href = "/login";
+//     }, 3000);
+//   }, 3000);
+// }, 8000);
 
 {
   /* <div class="progress">
@@ -23,3 +23,17 @@ setTimeout(() => {
   ></div>
 </div>; */
 }
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: "1",
+  spaceBetween: -30,
+  centeredSlides: true,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    renderBullet: function (_, className) {
+      return '<span class="' + className + '">' + "</span>";
+    },
+  },
+});

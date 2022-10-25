@@ -7,23 +7,25 @@
     <section class="main-container">
       <div class="main-page">
         <div class="main-top-bar">
-          <img src="./images/purgil logo.png" width="50px" />
-          <img src="./images/menu.png" width="36px" />
+          <img src="./images/purgil logo.png" width="35px" />
+          <img src="./images/menu.png" width="23px" />
         </div>
 
-        <div class="main-slider">
-          <div class="sliders">
-            <img src="./images/purgil slider 1.png" />
-            <img src="./images/purgil slider 2.png" />
-            <img src="./images/purgil slider 3.png" />
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/purgil slider 1.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/purgil slider 2.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/purgil slider 3.png" />
+            </div>
           </div>
-          <div class="dots">
-            <i style="color: green" class="fa fa-circle"></i>
-            <i class="fa fa-circle"></i>
-            <i class="fa fa-circle"></i>
-            <!-- <i class="fa fa-circle"></i>
-            <i class="fa fa-circle"></i> -->
-          </div>
+          <br />
+
+          <div class="swiper-pagination active"></div>
         </div>
 
         <div class="main-text">
@@ -44,10 +46,6 @@
                 <img src="./images/purgil menu bar.png" width="19px" />
               </div>
             </div>
-
-            <div class="live-menu">
-              <img src="./images/live chat svg.svg" />
-            </div>
           </div>
 
           <div class="main-sign-up">
@@ -67,10 +65,10 @@
               <img src="./images/google svg.svg" alt="" />
               <h3>Continue with Google</h3>
             </button>
-
-            <hr />
           </div>
         </div>
+
+        <%- include('./partial/liveChat.ejs') %>
 
         <div class="main-trade">
           <div class="main-trade-section">
@@ -79,7 +77,7 @@
               <div class="main-trade-table-header">
                 <div class="main-trade-table1">
                   <div class="table-list1">
-                    <h2>Name</h2>
+                    <h3>Name</h3>
                   </div>
                   <div class="table-list2">
                     <img src="./images/bitcoin svg.svg" />
@@ -378,7 +376,7 @@
               </div>
 
               <div class="help-options">
-                <img src="./images/blog svg.svg" />
+                <img src="./images/blog.svg" />
                 <h2><strong>Blog</strong></h2>
                 <h3>Stay up to date with the latest stories and commentart.</h3>
                 <p>Learn now</p>
@@ -390,5 +388,7 @@
         </div>
       </div>
     </section>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>

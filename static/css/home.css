@@ -23,15 +23,6 @@
     margin: 0;
   }
 
-  /* .home-display {
-    position: relative;
-    width: 428px;
-    height: 926px;
-
-    background: #ffffff;
-    border-radius: 20px;
-  } */
-
   .main img {
     width: 240px;
     position: absolute;
@@ -56,17 +47,9 @@
     background-color: #31ac00;
     position: absolute;
     bottom: 0;
-    width: 408px;
-    height: 405px;
+    width: 400px;
+    height: 290px;
     border-radius: 0px 85px 0px 0px;
-
-    /* position: absolute;
-    width: 482.5px;
-    height: 385px;
-    left: -49px;
-    top: 566.5px;
-    background: #200032;
-    border-radius: 60px; */
   }
 
   .home-footer h1 {
@@ -74,32 +57,34 @@
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 10px;
+    line-height: 15px;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.15em;
     color: #ffffff;
-    padding-top: 50px;
+    padding-top: 25px;
     justify-content: center;
   }
 
   .home-footer h3 {
     font-family: "IBM Plex Sans Thai Looped";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 10.6px;
     letter-spacing: 0.15em;
     color: #ffffff;
-    line-height: 20px;
+    line-height: 15px;
     justify-content: center;
-    padding: 13px 20px 10px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* padding: 0px 10px 10px 10px; */
   }
 
   .home-footer img {
     position: absolute;
     top: -35px;
-    width: 40px;
+    width: 35px;
   }
 
   .home-hidden img {
@@ -121,6 +106,7 @@
     padding: 4px 70px;
     border-radius: 8px;
     background: #a6a6aa;
+    border: none;
   }
   #loading button {
     font-family: "IBM Plex Sans Thai Looped";
@@ -143,7 +129,7 @@
     animation-iteration-count: 1;
   }
 
-  @keyframes welcome {
+  /* @keyframes welcome {
     from {
       transform: translateY(300px);
     }
@@ -159,5 +145,5 @@
     to {
       transform: translateY(150px);
     }
-  }
+  } */
 }
