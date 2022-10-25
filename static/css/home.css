@@ -32,23 +32,19 @@
     top: 295px;
   }
 
-  .logo-left {
-    position: absolute;
-    /* width: 206px;
-    height: 260.68px;
+  /* .logo-left {
+    width: 106px;
+    height: 199.68px;
     left: -126px;
-    top: -35px;
-    position: absolute;
-    height: 150px;
-    top: -1px; */
-  }
+    top: -15px;
+  } */
 
   .home-footer {
     background-color: #31ac00;
     position: absolute;
-    bottom: 0;
-    width: 400px;
-    height: 290px;
+    top: 720px;
+    width: 374px;
+    height: 270px;
     border-radius: 0px 85px 0px 0px;
   }
 
@@ -129,9 +125,9 @@
     animation-iteration-count: 1;
   }
 
-  /* @keyframes welcome {
+  @keyframes welcome {
     from {
-      transform: translateY(300px);
+      transform: translateY(270px);
     }
     to {
       transform: translateY(0px);
@@ -145,5 +141,5 @@
     to {
       transform: translateY(150px);
     }
-  } */
+  }
 }

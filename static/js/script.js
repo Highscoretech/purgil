@@ -1,15 +1,18 @@
 let loading = document.getElementById("loading");
+let mainPage = document.querySelector(".main-page");
+console.log(mainPage);
+let proceed = document.getElementById("load");
+console.log(proceed);
 
-// setTimeout(() => {
-//   loading.style.display = "block";
-//   setTimeout(() => {
-//     loading.textContent = "starting app...";
-//     setTimeout(() => {
-//       location.href = "/login";
-//     }, 3000);
-//   }, 3000);
-// }, 8000);
-
+setTimeout(() => {
+  loading.style.display = "block";
+  //   setTimeout(() => {
+  //     loading.textContent = "starting app...";
+  //     setTimeout(() => {
+  //       location.href = "/login";
+  //     }, 3000);
+  //   }, 3000);
+}, 8000);
 {
   /* <div class="progress">
   <div
@@ -24,16 +27,24 @@ let loading = document.getElementById("loading");
 </div>; */
 }
 
+const openMainPage = function () {
+  mainPage.style.display = "block";
+};
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: "1",
   spaceBetween: -30,
   centeredSlides: true,
   loop: true,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-    renderBullet: function (_, className) {
-      return '<span class="' + className + '">' + "</span>";
-    },
+    // renderBullet: function (_, className) {
+    //   return '<span class="' + className + '">' + "</span>";
+    // },
   },
 });
