@@ -1,0 +1,810 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  }
+  
+  /* For mobile */
+  @media only screen and (max-width: 550px) {
+    .body {
+      background-color: white;
+      color: white;
+      height: 100vh;
+    }
+  
+    #mobile {
+      padding: 0;
+      margin: 0;
+    }
+    .offcanvas-header{
+        background: #F1F2F9;
+        /* height: 100vh; */
+        width: 94%;
+        position: absolute;
+        right: 0;
+    }
+    .header{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    #ex-trade{
+        display: block;
+    }
+    .btn-close{
+        position: absolute;
+        right: 3.5%;
+        top: 3%;
+        font-weight: bold;
+    }
+
+    .nav-login{
+        text-align: center;
+        margin: 20px 0px;
+        display: block;
+    }
+.login{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    width: 100%;
+    line-height: 50px;
+    padding: 10px;
+    letter-spacing: 0.09em;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+ .register{
+    color: white;
+    background: #200032;
+    text-decoration: none;
+    padding: 5.3px 120px;
+    opacity: 0.9;
+    border-radius: 7px;   
+}
+.crypto{
+    width: 100%;
+
+}
+.cryptoImage{
+   width: 10%;
+}
+.cryptoImage1{
+    position: relative;
+    bottom: 2.2rem;
+    right: 0.5rem;
+}
+.buy-cryto-img2{
+    position: relative;
+    width: 90%px;
+    height: 55px;
+    left: 1px;
+    top: 222px;  
+}
+.crypto-text{
+ width: 87.5%; 
+ padding-top: 10px 0px;
+ position: relative;
+ display: flex;
+}
+.crypto-text1{
+ padding-top: 20px 0px;
+ display: flex;
+}
+.buy1{
+    margin: 8px 0px;
+}
+.crypto-arrow{
+  
+}
+
+.paying{
+ width: 100%;
+    
+   
+}
+.naira{
+
+}
+#crypto{
+    display: flex;
+}
+.buy1{
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 10px;
+letter-spacing: 0.09em;
+color: #666666;
+
+}
+.buy1-1{
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 10px;;
+letter-spacing: 0.09em;
+color: #666666;
+
+}
+.pay-with{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+}
+.pay-with-1{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+    /* width: 100%; */
+    padding-left: 5%;
+}
+.credit-card{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+}
+.credit-card-1{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+}
+.p2p{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+}
+.p2p-1{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+}
+#market{
+    display: flex;
+}
+.market{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+    padding: 10px;
+}
+#Trade{
+    display: flex;
+}
+.crypto-text-1{
+    padding: 15px;
+}
+.market{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+}
+.down_ar{
+   position: relative;
+   left: 0.7rem;
+   bottom: 0.4rem;
+}
+#usd{
+   /* right: 0.6rem;
+    position: relative; */
+}
+.usd{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+}
+.trader-12{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;  
+}
+.trader-14{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;  
+}
+.trader-16{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;   
+}
+.ngn2, .usd_5{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #00941D;
+}
+#ex-trade{
+    padding-left: 22px;
+  
+    
+}
+.trading-11{
+    margin-top: 15px;
+}
+.trading-13{
+    margin-top: 15px;
+}
+.trading-15{
+    margin-top: 15px;
+}
+.trading-17{
+    margin-top: 15px;
+}
+.trader18{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;    
+}
+.ngn-1{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #00941D;
+    /* width: 90%; */
+
+}
+#ex-earn{
+    display: block;
+    padding-left: 22px;
+}
+.ngn{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #00941D;
+}
+
+    .auto-1{
+
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+    }
+    .auto{
+
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+    }
+    .trading-img{
+        width: 10%;
+    }
+    .earn-img{
+        width: 10%;
+    }
+    .trading{
+        width: 90%;
+    }
+    .trader{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+        padding-top: 5px;
+    }
+    #Earn{
+        display: flex;
+    }
+    .trader-1{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+    }
+    .sport-1{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+       line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+    }
+    .sport{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+    }
+    .p2p1-1{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+    }
+    .p2p1{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+    }
+    .swap-1{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+    }
+    .swap{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+
+        letter-spacing: 0.09em;
+        color: #666666;
+    }
+    .earn{
+        width: 100%;
+        padding: 5px;
+       
+    }
+        .earning-1{
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+    
+            letter-spacing: 0.09em;
+            color: #666666;
+        }
+        .earning{
+
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.09em;
+            color: #666666;
+            padding-top: 5px;
+        }
+        #Finance{
+            display: flex;
+        }
+        .fina-img{
+            width: 10%;
+        }
+        .finan{
+            width: 100%;
+            padding-top: 5px;
+        }
+        .air-1{
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.09em;
+            color: #666666;
+        }
+        .air3{
+           margin-top: 15px;
+        }
+        .farm{
+            margin-top: 15px;
+        }
+        .simple{
+            margin-top: 15px;
+        }
+       
+        #extention1{
+            position: relative;
+            display: block;
+            padding: 10px;
+
+        }
+        .loaning{
+            padding-left: 22px;
+            margin-top: 15px;
+        }
+        .purgil{
+            padding-left: 22px;
+            margin-top: 15px;
+        }
+        .farmer{
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.09em;
+            color: #666666;
+        }
+        .simpler{
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.09em;
+            color: #666666;
+        }
+        /* .crypto-text2{
+            padding: 6px;
+        } */
+        .air{
+
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.09em;
+            color: #666666;
+        }
+        .chance{
+            padding-left: 22px;
+            margin-top: 15px;
+        }
+        .acacemy{
+            padding-left: 22px;
+            margin-top: 15px; 
+        }
+        .farm-1{
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.09em;
+            color: #666666;
+        }
+        .farm{
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.09em;
+            color: #666666;
+        }
+        .aka{
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.09em;
+            color: #666666; 
+        }
+        .exchan{
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.09em;
+            color: #666666;
+        }
+        .simple-1{
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.09em;
+            color: #666666;
+        }
+        .simple{
+            font-family: 'IBM Plex Sans Thai Looped';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 10px;
+            letter-spacing: 0.09em;
+            color: #666666;
+        }
+            .finance-1{
+                font-family: 'IBM Plex Sans Thai Looped';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 10px;
+                letter-spacing: 0.09em;
+                color: #666666;
+            }
+            .finance{
+                font-family: 'IBM Plex Sans Thai Looped';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 10px;
+                letter-spacing: 0.09em;
+                color: #666666;
+            }
+            .loan-1{
+
+                font-family: 'IBM Plex Sans Thai Looped';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 10px;
+
+                letter-spacing: 0.09em;
+                color: #666666;
+            }
+            .loan{
+
+                font-family: 'IBM Plex Sans Thai Looped';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 10px;
+
+                letter-spacing: 0.09em;
+                color: #666666;
+            }
+            .new-1{
+                color: white;
+                border: 1px solid;
+                left: 97px;
+                font-family: 'IBM Plex Sans Thai Looped';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 10px;
+
+                letter-spacing: 0.09em;
+                background-color:
+                rgba(0, 148, 29, 1);
+            }
+            .new{
+                color: white;
+                border: 1px solid;
+                left: 97px;
+                font-family: 'IBM Plex Sans Thai Looped';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 10px;
+
+                letter-spacing: 0.09em;
+                background-color:
+                rgba(0, 148, 29, 1);
+            }
+            .card1-1{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+  } 
+            .card1{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+  } 
+  .dots3-1{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+}
+  .dots3{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.09em;
+    color: #666666;
+}
+    .product-1{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+      }
+      #product{
+        display: flex;
+      }
+      .prod-img{
+        width: 10%;
+      }
+      .prod{
+        width: 100%;
+        padding-top: 5px;
+      }
+    .product{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+      }
+    .exchange-1{
+
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+      }
+    .exchange{
+
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+      }
+      #theme{
+        display: flex;
+      }
+      .themes{
+        width: 80%;
+        padding-top: 15px;
+       
+      }
+      .prod-img{
+        width: 10%;
+      }
+      .theme{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666;
+      }
+      .product
+      .prod{
+        width: 80%;
+        padding-top: 15px;
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666
+      }
+      .theme-img{
+        width: 10%;
+        padding-top: 5px;
+      }
+      #world{
+        display: flex;
+      }
+      .world_img{
+     width: 10%;
+      }
+      .eng{
+        padding-top: 5px;
+      }
+      .english{
+        padding-top: 5px;
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666
+      }
+      #dolla{
+        display: flex;
+      }
+      .dolla-img{
+        width: 7%;
+        padding-left: 0.2rem;
+      }
+     
+  
+      
+
+  }

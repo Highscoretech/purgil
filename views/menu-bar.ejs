@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partial/head.ejs') %> 
+    <link rel="stylesheet" href="./bootstrap/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<section id="mobile">
+    <button class=" d-lg-none" type="button" style="border: none; background:none ; float: right; padding-top: 15px; padding-right:15px ;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
+        <img src="./images/menu.png" width="22px" />
+    </button>
+
+    <div class=" d-none d-lg-block">Resize your browser to show the responsive offcanvas toggle.</div>
+
+    <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+    
+    <!-- <div class="offcanvas-body"> -->
+        <div class="header">
+            <br> <br>
+            <!-- <img class="remove" src="./images/side-purgil (2).svg" alt="" width="20" > -->
+            <div class="nav-login">
+                <a href="#" class="login">Login</a>
+                <br>
+               <a href="#" class="register">Register</a>
+            </div>
+            <br>
+                    <!--login buy crypto -->
+                    <div class="crypto">
+                        <div onclick="buy(1)" id="crypto">
+                            <div class="cryptoImage">
+                                <img  class="buy-cryto-img" src="./images/green-btc.svg" alt="">
+                            </div>
+                            <div class="crypto-text">
+                                <h3 class="buy1">Buy crypto</h3>
+                            </div>
+                            <div class="crypto-arrow">
+                                <img class="up-arrow" src="./images/dn-icon.svg" alt="">
+                            </div>
+                            <div class="crypto-arrow" style="display: none;">
+                                <img class="up-arrow3" src="./images/green-arror.svg" alt="">
+                            </div>
+                        </div>
+                         <!-- extentiomn -->
+                        <div id="extention1" style="display: none;">
+                            <div class="crypto-text1">
+                               <div class="paying">
+                                 <h3 class="pay-with-1">pay with</h3>
+                                </div>
+                               <div class="naira">
+                                 <h1 class="ngn-1">NGN</h1>
+                                </div>
+                                <div>
+                                    <div id="down-ar">
+                                        <img onclick="buy(6)" class="down_ar"  src="./images/down-ar.svg" alt="">
+                                    </div>
+                                    <div  id="usd" style="display: none;">
+                                        <h3 class="usd_5">USD</h3>
+                                        <h3 class="ngn2">NGN</h3>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="crypto-text-1">
+                                <div class="crypto-text2">
+                                    <h3 class="p2p-1">Credit/Debit card</h3> 
+                                    <br>
+                                </div>
+                                <div class="crypto-text3">
+                                    <h3 class="buy1">P2P Trading</h3>
+                                    <br>
+                                </div>
+                                <div class="crypto-text4">
+                                    <h3 class="buy1">Buy crypto</h3>
+                                </div>
+                            </div>
+
+                    </div>
+                 
+
+                   
+           
+                    </div>
+            
+                 
+                <br>
+                
+                    <!--market login -->
+                    <div id="market" >                 
+                    <img class="candle" src="images/candle.svg" alt="">
+                    <h3 class="market">Market</h3> 
+                    </div>
+                   
+                        <!--trade login -->
+                        <br>
+                <div onclick="buy(2)"  id="main-traden" onclick="trader()">  
+                    <div id="Trade">
+                            <div class="trading-img">
+                                <img class="trade" src="./images/trade-icon.svg" alt="">
+                            </div>
+                            <div class="trading">
+                                <h3 class="trader">Trade</h3>
+                            </div>
+                            <div onclick="pro(1)"  class="trade-arrow" id="arrow3">
+                                <img class="up-arrow1" src="./images/dn-icon.svg" alt="">
+                            </div>
+                            <div onclick="pro(2)"  id="arrow4" class="trade-arrow" style="display: none;">
+                                <img class="up-arrow3" src="./images/green-arror.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- extentyion -->
+                        <div id="ex-trade" style="display: none;">
+                            <div class="trading-11">
+                                <h3 class="trader-12">Auto swap</h3>
+                            </div>
+                            <div class="trading-13">
+                                <h3 class="trader-14">Sport Trading</h3>
+                            </div>
+                            <div class="trading-15">
+                                <h3 class="trader-16">P2P</h3>
+                            </div>
+                            <div class="trading-17">
+                                <h3 class="trader18">Swap farming</h3>
+                            </div>
+                        </div>
+
+
+                       
+                        
+                       
+                       
+                    </div>
+                    
+                        <br>
+
+                        <!-- login Earn -->
+                        <div onclick="buy(3)"  id="main-Earn">
+                            <div id="Earn">
+                                <div class="earn-img">
+                                    <img class="earn" src="./images/earning.svg" alt="">
+                                </div>
+                                <div class="earn">
+                                    <h3 class="earning">Earn</h3>
+                                </div>
+                                <div id="earn-arrow1" class="earn-arrow" onclick="pro(1)">
+                                    <img class="up-arrow1" src="./images/dn-icon.svg" alt="">
+                                </div>
+                                <div id="earn-arro2"  onclick="pro(2)" class="earn-arrow" style="display: none;">
+                                    <img class="up-arrow3" src="./images/green-arror.svg" alt="">
+                                </div>
+                            </div>
+                            <!-- extention -->
+                            <div id="ex-earn" style="display: none;">
+                            <div class="air3">
+                                <h3 class="air">Airdrop</h3>
+                            </div>
+                            <div class="farm">
+                                <h3 class="farmer">Farming</h3>
+                            </div>
+                            <div class="simple">
+                                <h3 class="simpler">Simple Earn</h3>
+                            </div>
+                        </div>
+                        </div>
+
+                
+                        <!-- login financ -->
+                        <br>
+                    <div onclick="buy(4)"  id="main-finance">
+                        <div id="Finance" >
+                            <div class="fina-img">
+                                <img class="fina" src="./images/fina.svg" alt="">
+                            </div>
+                            <div class="finan">
+                                <h3 class="finance">Finance</h3>
+                            </div>
+                            <div class="fina-arrow">
+                                <img class="up-arrow3" src="./images/dn-icon.svg" alt="">
+                            </div>
+                            <div class="fina-arrow" style="display: none;">
+                                <img class="up-arrow3" src="./images/green-arror.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- extention -->
+                        <div id="ex-finance" style="display: none;">
+                            <div class="loaning">
+                                <h3 class="loan">Crypto Loan</h3>
+                            </div>
+                            <div class="purgil">
+                                <h3 class="swap">PurginSwap Card</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ================================= -->
+                    <!-- product -->
+                            <br>
+                            <div onclick="buy(5)"  id="main-product">
+                                <div id="product">
+                                    <div class="prod-img">
+                                        <img class="dots3" src="./images/dots3.svg" alt="">
+                                    </div>
+                                    <div class="prod">
+                                        <h3 class="product">Product</h3>
+                                    </div>
+                                    <div class="prod-arrow" id="product-arrow" onclick="pro(1)">
+                                        <img class="up-arrow4" src="./images/dn-icon.svg" alt="">
+                                    </div>
+                                    <div id="green-arrow" class="prod-arrow" style="display: none;" onclick="pro(2)">
+                                        <img class="up-arrow3" src="./images/green-arror.svg" alt="">
+                                    </div>
+                                </div>
+                                <!-- extention -->
+                                <div id="ex-product" style="display: none;">
+                                    <div class="chance">
+                                        <h3 class="exchan">Exchange</h3>
+                                    </div>
+                                    <div class="acacemy">
+                                        <h3 class="aka">Academy</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                    <br>
+            <!-- ==================================================== -->
+                    <div id="theme">
+                        <div class="theme-img">
+                            <img class="ps2" src="./images/ps2.svg" alt="" >
+                        </div>
+                        <div class="themes">
+                            <h3 class="theme">Theme</h3>
+                        </div>
+                        <div class="theme-icon">
+                        <img class="ps2" src="./images/eye.svg" alt="" >
+                        </div>
+                    </div>
+                    <!-- ============================================================ -->
+                       <br>
+                    <div id="world">
+                        <div class="world_img">
+                            <img class="world_4" src="./images/world.svg" alt="" width="30">
+                         </div>
+                        <div class="eng">
+                            <h3 class="english">English</h3>
+                        </div>
+                    </div>
+                    <!-- ================================================= -->
+                    <br>
+                        
+                <div id="dolla">
+                    <div class="dolla-img">
+                        <img class="dolla" src="./images/dolla.svg" alt=""> 
+                    </div>
+                    <div class="usd">
+                        <h4 class="usd1">USD</h4>
+                    </div>
+                </div>
+            
+           
+           
+
+            
+            
+    </div>
+    </div>
+    </div>
+  
+
+</div>
+</section>
+<script src="./js/menu-bar.js"></script>
+<script src="./bootstrap/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
