@@ -1,63 +1,52 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <%- include('./partial/head.ejs') %>
-  <body
-    style="
-      height: 100vh;
-      background-image: linear-gradient(white 65%, rgb(143, 143, 143));
-    "
-  >
-    <div class="signup">
-      <p>&larr;</p>
-      <img src="./images/sigup logo.png" alt="" />
-    </div>
-    <div class="signup-img">
-      <img src="./images/welcome photo.png" />
-    </div>
-    <div class="signup-btn">
-      <h2>Create your Account</h2>
-      <form class="form">
-        <div class="form-signup">
-          <input type="email" name="email" placeholder="Email" />
-          <input type="password" name="password" placeholder="Password" />
-          <input
-            type="password"
-            name="password"
-            placeholder="Confirm Password"
-          />
-        </div>
-        <div class="btn-signup">
-          <button class="btn">Continue</button>
-          <div class="btn-arrow">
-            <p class="btn-arrow-arrow">&gt;</p>
+  <body style="background-color: rgba(32, 0, 50, 0.1)">
+    <section id="mobile">
+      <div class="signup">
+        <div class="signup-container">
+          <div class="cornerColor3"></div>
+          <div class="signup-content">
+            <div class="logo">
+              <img src="./images/welcome photo.png" alt="" />
+            </div>
+            <h3>Create Account</h3>
+            <form action="#" method="post">
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <input type="password" placeholder=" Confirm Password" />
+              <button type="submit">Continue</button>
+            </form>
+
+            <div class="signup-text">
+              <h1>or</h1>
+            </div>
           </div>
         </div>
-      </form>
+      </div>
+      <div class="downLock"></div>
+      <div class="downLock1-3"></div>
 
-      <div class="footer-page">
-        <div class="footer-page-link">
-          <h2>or sign up with</h2>
-          <div class="social-icons">
-            <button class="btn-link">
-              <a href="google.com"><img src="./images/icons8-google.svg" /></a>
-            </button>
+      <button class="signup-google-btn">
+        <img src="./images/google svg.svg" alt="" />
+        <h3>Continue with Google</h3>
+      </button>
 
-            <button class="btn-link">
-              <a href="facebook.com"
-                ><img src="./images/icons8-facebook.svg"
-              /></a>
-            </button>
+      <div class="footer-last"></div>
 
-            <button class="btn-link">
-              <a href="twitter.com"
-                ><img src="./images/icons8-twitter.svg"
-              /></a>
-            </button>
-          </div>
-        </div>
-        <p class="footer-text">I have an account <a href="#">sign in</a></p>
+      <div class="signup-text3">
+        <h1>Already have an account? <span>sign in</span></h1>
+      </div>
+    </section>
+
+    <div class="last-footer">
+      <hr />
+
+      <div class="signup-footer-copyright">
+        <i class="fa fa-copyright" aria-hidden="true"></i>
+        <h5>PurgilSwap</h5>
+        <p>2002</p>
       </div>
     </div>
-    <script src="./js/script.js"></script>
   </body>
-</html> -->
+</html>

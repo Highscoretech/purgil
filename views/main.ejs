@@ -5,6 +5,7 @@
   </head>
   <body>
     <div class="main-container">
+      <div class="main-cornerColor"></div>
       <div class="main-page">
         <div class="main-top-bar">
           <img src="./images/purgil logo.png" width="35px" />
@@ -21,6 +22,15 @@
             </div>
             <div class="swiper-slide">
               <img src="./images/purgil slider 3.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/purgil slider 4.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/purgil slider 5.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/purgil slider 6.png" />
             </div>
           </div>
           <br />
@@ -56,11 +66,6 @@
 
             <h1>or</h1>
 
-            <img class="purgil-box" src="./images/purgil box.png" />
-            <div class="signup-hidden">
-              <img src="./images/purgil Rectangle.png" />
-            </div>
-
             <button class="btn-text1">
               <img src="./images/google svg.svg" alt="" />
               <h3>Continue with Google</h3>
@@ -70,92 +75,118 @@
 
         <%- include('./partial/liveChat.ejs') %>
 
+        <div class="main-trade-curve1"></div>
+        <div class="main-trade-curve"></div>
+
         <div class="main-trade">
           <div class="main-trade-section">
             <div class="main-trade-table">
-              <h1><strong>Popular cryptocurrencies</strong></h1>
+              <h1>Popular cryptocurrencies</h1>
               <div class="main-trade-table-header">
                 <div class="main-trade-table1">
                   <div class="table-list1">
                     <h3>Name</h3>
-                  </div>
-                  <div class="table-list2">
-                    <img src="./images/bitcoin svg.svg" />
-                    <h1><strong>Bitcoin</strong></h1>
-                    <h3>BTC</h3>
-                  </div>
-                  <div class="table-list2">
-                    <img src="./images/eth2 svg.svg" />
-                    <h1><strong>Ethereum</strong></h1>
-                    <h3>ETH</h3>
-                  </div>
-                  <div class="table-list2">
-                    <img src="./images/bnb svg.svg" />
-                    <h1><strong>BNB</strong></h1>
-                    <h3>BNB</h3>
-                  </div>
-                  <div class="table-list2">
-                    <img src="./images/doge svg.svg" />
-                    <h1><strong>Doge</strong></h1>
-                    <h3>DOGE</h3>
-                  </div>
-                  <div class="table-list2">
-                    <img src="./images/ripple svg.svg" />
-                    <h1><strong>Ripple</strong></h1>
-                    <h3>XRP</h3>
-                  </div>
-                </div>
-                <div class="main-trade-table2">
-                  <div class="table-list-right1">
-                    <h3>Last price</h3>
-                    <h3>24h change</h3>
-                  </div>
-                  <div class="table-list-right2">
-                    <h3>$276.4</h3>
-                    <div class="red-text">
-                      <h4>-7.9%</h4>
+                    <div class="table-list-right1">
+                      <h3>Last price</h3>
+                      <h3>24h change</h3>
                     </div>
                   </div>
-                  <div class="table-list-right2">
-                    <h3>$276.4</h3>
-                    <div class="green-text">
-                      <h4>-7.9%</h4>
+
+                  <div class="table-list2">
+                    <div class="table-list2-1">
+                      <img src="./images/bitcoin svg.svg" />
+                      <h3>Bitcoin</h3>
+                      <p>BTC</p>
+                    </div>
+
+                    <div class="table-list-right-number">
+                      <h3>$276.4</h3>
+                      <div class="red-text">
+                        <h3>-2.6%</h3>
+                      </div>
                     </div>
                   </div>
-                  <div class="table-list-right2">
-                    <h3>$276.4</h3>
-                    <div class="red-text">
-                      <h4>-7.9%</h4>
+
+                  <div class="table-list2-rest">
+                    <div class="table-list2-1">
+                      <img src="./images/eth1 svg.svg" />
+                      <h3>Ethereum</h3>
+                      <p>ETH</p>
+                    </div>
+
+                    <div class="table-list-right-number">
+                      <h3>$276.4</h3>
+                      <div class="green-text">
+                        <h3>-7.9%</h3>
+                      </div>
                     </div>
                   </div>
-                  <div class="table-list-right2">
-                    <h3>$276.4</h3>
-                    <div class="green-text">
-                      <h4>-7.9%</h4>
+
+                  <div class="table-list2-rest">
+                    <div class="table-list2-1">
+                      <img src="./images/bnb svg.svg" />
+                      <h3>BNB</h3>
+                      <p>BNB</p>
+                    </div>
+
+                    <div class="table-list-right-number">
+                      <h3>$276.4</h3>
+                      <div class="red-text">
+                        <h3>-7.9%</h3>
+                      </div>
                     </div>
                   </div>
-                  <div class="table-list-right2">
-                    <h3>$276.4</h3>
-                    <div class="red-text">
-                      <h4>-7.9%</h4>
+
+                  <div class="table-list2-rest">
+                    <div class="table-list2-1">
+                      <img src="./images/doge svg.svg" />
+                      <h3>Doge</h3>
+                      <p>DOGE</p>
+                    </div>
+
+                    <div class="table-list-right-number">
+                      <h3>$276.4</h3>
+                      <div class="green-text">
+                        <h3>-7.9%</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="table-list2-rest">
+                    <div class="table-list2-1">
+                      <img src="./images/eth1 svg.svg" />
+                      <h3>Ripple</h3>
+                      <p>XRP</p>
+                    </div>
+
+                    <div class="table-list-right-number">
+                      <h3>$276.4</h3>
+                      <div class="red-text">
+                        <h3>-7.9%</h3>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+
+              <br />
+
               <div class="table-footer">
-                <h3><strong>View more markets</strong></h3>
+                <h3>View more markets</h3>
                 <img src="./images/purgil menu bar.png" width="19px" />
               </div>
             </div>
 
             <div class="main-signup-text">
               <h1>Sign up now to build your own portfolio for free!</h1>
-              <button><span>Get started</span></button>
+              <a href="#"
+                ><button><span>Get started</span></button></a
+              >
             </div>
 
             <div class="main-display">
               <div class="main-display-text">
-                <img src="./images/verify svg.svg" alt="" />
+                <img src="./images/verify svg2.svg" alt="" />
                 <h1>Verify your identity</h1>
                 <h3>
                   Complete the identity verification process to secure your
@@ -163,7 +194,7 @@
                 </h3>
               </div>
               <div style="padding-top: 20px" class="main-display-text">
-                <img src="./images/fund svg.svg" alt="" />
+                <img src="./images/fund svg2.svg" alt="" />
                 <h1>Fund your account</h1>
                 <h3>
                   Add funds to your crypto account to start trading crypto. You
@@ -171,7 +202,7 @@
                 </h3>
               </div>
               <div style="padding-top: 20px" class="main-display-text">
-                <img src="./images/trading svg.svg" alt="" />
+                <img src="./images/trading svg2.svg" alt="" />
                 <h1>Start trading</h1>
                 <h3>
                   You’re good to go! Buy/sell crypto, set up recurring buys for
@@ -181,7 +212,9 @@
             </div>
 
             <div class="main-signup-text1">
-              <button><span>Get started</span></button>
+              <a href="#"
+                ><button><span>Get started</span></button></a
+              >
             </div>
 
             <div class="earn-text">
@@ -191,129 +224,114 @@
 
             <div class="main-display-flex">
               <div class="main-display-flex-bg">
-                <div class="main-display-flex-bg1">
-                  <img src="./images/display.png" />
-                </div>
                 <div class="main-display-flex-item">
                   <img src="./images/usdt svg.svg" />
                   <div class="main-display-flex-text">
-                    <h1><strong>USDT</strong></h1>
+                    <h1>USDT</h1>
                     <h3><span>APR</span>0.14%-80.32%</h3>
                   </div>
                   <img
                     class="display-arrow"
                     src="./images/arrow circle svg.svg"
-                    width="20px"
+                    width="15px"
                   />
                 </div>
               </div>
+
               <div class="main-display-flex-bg">
-                <div class="main-display-flex-bg1">
-                  <img src="./images/display.png" />
-                </div>
                 <div class="main-display-flex-item">
-                  <img src="./images/bitcoin svg.svg" />
+                  <img class="" src="./images/bitcoin svg2.svg" />
                   <div class="main-display-flex-text">
-                    <h1><strong>BTC</strong></h1>
+                    <h1>BTC</h1>
                     <h3><span>APR</span>0.34%-40.32%</h3>
                   </div>
                   <img
                     class="display-arrow"
                     src="./images/arrow circle svg.svg"
-                    width="20px"
+                    width="15px"
                   />
                 </div>
               </div>
             </div>
 
-            <div style="margin-top: 20px" class="main-display-flex">
+            <div class="main-display-flex-rest">
               <div class="main-display-flex-bg">
-                <div class="main-display-flex-bg1">
-                  <img src="./images/display.png" />
-                </div>
                 <div class="main-display-flex-item">
-                  <img src="./images/bnb svg.svg" />
+                  <img src="./images/bnb svg2.svg" />
                   <div class="main-display-flex-text">
-                    <h1><strong>BNB</strong></h1>
+                    <h1>BNB</h1>
                     <h3><span>APR</span>0.30%-43.32%</h3>
                   </div>
                   <img
                     class="display-arrow"
                     src="./images/arrow circle svg.svg"
-                    width="20px"
+                    width="15px"
                   />
                 </div>
               </div>
+
               <div class="main-display-flex-bg">
-                <div class="main-display-flex-bg1">
-                  <img src="./images/display.png" />
-                </div>
                 <div class="main-display-flex-item">
-                  <img src="./images/busd svg.svg" />
+                  <img src="./images/busd svg 2.svg" />
                   <div class="main-display-flex-text">
-                    <h1><strong>BUSD</strong></h1>
+                    <h1>BUSD</h1>
                     <h3><span>APR</span>0.34%-40.32%</h3>
                   </div>
                   <img
                     class="display-arrow"
                     src="./images/arrow circle svg.svg"
-                    width="20px"
+                    width="15px"
                   />
                 </div>
               </div>
             </div>
 
-            <div style="margin-top: 20px" class="main-display-flex">
+            <div class="main-display-flex-rest">
               <div class="main-display-flex-bg">
-                <div class="main-display-flex-bg1">
-                  <img src="./images/display.png" />
-                </div>
                 <div class="main-display-flex-item">
                   <img src="./images/eth2 svg.svg" />
                   <div class="main-display-flex-text">
-                    <h1><strong>ETH</strong></h1>
+                    <h1>ETH</h1>
                     <h3><span>APR</span>0.30%-43.32%</h3>
                   </div>
                   <img
                     class="display-arrow"
                     src="./images/arrow circle svg.svg"
-                    width="20px"
+                    width="15px"
                   />
                 </div>
               </div>
+
               <div class="main-display-flex-bg">
-                <div class="main-display-flex-bg1">
-                  <img src="./images/display.png" />
-                </div>
                 <div class="main-display-flex-item">
                   <img src="./images/ltc svg.svg" />
                   <div class="main-display-flex-text">
-                    <h1><strong>LTC</strong></h1>
+                    <h1>LTC</h1>
                     <h3><span>APR</span>0.30%-43.32%</h3>
                   </div>
                   <img
                     class="display-arrow"
                     src="./images/arrow circle svg.svg"
-                    width="20px"
+                    width="15px"
                   />
                 </div>
               </div>
             </div>
 
             <div class="main-signup-text3">
-              <button><span>Get started</span></button>
+              <a href="#"
+                ><button><span>Get started</span></button></a
+              >
             </div>
 
-            <div class="main-display-footer-curve">
-              <img class="main-display-box" src="./images/purgil box.png" />
-              <div class="main-display-hidden">
-                <img src="./images/purgil Rectangle.png" />
-              </div>
-            </div>
+            <div class="main-trade-curvedown1"></div>
+            <div class="main-trade-curve-down"></div>
 
-            <div style="margin-top: 25px" class="main-light-display">
+            <!--  -->
+
+            <div class="main-light-display">
               <img src="./images/secure svg.svg" />
-              <h1><strong>Secure Asset Funds for users (SAFU)</strong></h1>
+              <h1>Secure Asset Funds for users (SAFU)</h1>
               <h3>
                 Pilgilswap stores 10% of all trading fees in a secure asset to
                 protect a share of user funds.
@@ -324,7 +342,7 @@
               <div class="personal-2">
                 <img src="./images/eye svg.svg" />
               </div>
-              <h1><strong>Personalised Access Control</strong></h1>
+              <h1>Personalised Access Control</h1>
               <h3>
                 Advanced access control allows you to restrict device and
                 addresses that can access your account, for greater ease of
@@ -333,7 +351,7 @@
             </div>
             <div style="margin-top: 25px" class="main-light-display">
               <img src="./images/data svg.svg" />
-              <h1><strong>Advanced Data Encryption</strong></h1>
+              <h1>Advanced Data Encryption</h1>
               <h3>
                 Your transaction data is secured via end-to-end encryption,
                 ensuring that only you have access to your personal information.
@@ -341,11 +359,13 @@
             </div>
 
             <div class="main-signup-text4">
-              <button><span>Start now</span></button>
+              <a href="#"
+                ><button><span>Start Now</span></button></a
+              >
             </div>
 
             <div class="trade-text-footer">
-              <h1><strong>Trade on the go. Anywhere, Anytime</strong></h1>
+              <h1>Trade on the go. Anywhere, Anytime</h1>
             </div>
 
             <div class="app-icon">
@@ -354,11 +374,11 @@
 
             <div class="help">
               <div class="need-help">
-                <h1><strong>Need Help?</strong></h1>
+                <h1>Need Help?</h1>
               </div>
               <div class="help-options">
                 <img src="./images/chat svg.svg" />
-                <h2><strong>24/7 Chat Support</strong></h2>
+                <h2>24/7 Chat Support</h2>
                 <h3>
                   Get 24/7 chat support with our friendly customer service agent
                   at your service.
@@ -368,7 +388,7 @@
 
               <div class="help-options">
                 <img src="./images/faq svg.svg" />
-                <h2><strong>FAQs</strong></h2>
+                <h2>FAQs</h2>
                 <h3>
                   View FAQs for detailed instructions on specific features.
                 </h3>
@@ -377,13 +397,12 @@
 
               <div class="help-options">
                 <img src="./images/blog.svg" />
-                <h2><strong>Blog</strong></h2>
+                <h2>Blog</h2>
                 <h3>Stay up to date with the latest stories and commentart.</h3>
                 <p>Learn now</p>
               </div>
-
-         
             </div>
+            <%- include('./partial/footer.ejs') %>
           </div>
         </div>
       </div>

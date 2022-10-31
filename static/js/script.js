@@ -1,7 +1,9 @@
 let loading = document.getElementById("loading");
+console.log(loading);
 let mainPage = document.querySelector(".main-page");
 console.log(mainPage);
 let proceed = document.getElementById("load");
+console.log(loading);
 console.log(proceed);
 
 setTimeout(() => {

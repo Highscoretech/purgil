@@ -1,29 +1,58 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <%- include('./partial/head.ejs') %>
-<body style="background-color: #200032;">
-  
-  <section id="mobile">
+  <body style="background-color: rgba(32, 0, 50, 0.1)">
+    <section id="mobile">
       <div class="login">
         <div class="login-container">
-            <div class="cornerColor"></div>
+          <div class="cornerColor1"></div>
           <div class="login-content">
-              <div class="logo">
-                <img src="./images/welcome photo.png" alt="">
-              </div>
-              <h3>Login to your account</h3>
-              <form action="#" method="post">
-                <input type="email" placeholder="Email">           
-                <input type="password" placeholder="Password">
-                <button type="submit">Continue</button>
-              </form>
+            <div class="logo">
+              <img src="./images/welcome photo.png" alt="" />
+            </div>
+            <h3>Login to your Account</h3>
+            <form action="#" method="post">
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <button type="submit">Continue</button>
+            </form>
+
+            <div class="visible-password">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+
+            <div class="login-text">
+              <h1>or</h1>
+            </div>
+            <div class="login-text2">
+              <h1>or sign in with</h1>
+            </div>
           </div>
-          
         </div>
       </div>
       <div class="downLock"></div>
-      <div class="downLock1"></div>
-  </section>
-</body>
+      <div class="downLock1-2"></div>
+
+      <button class="login-google-btn">
+        <img src="./images/google svg.svg" alt="" />
+        <h3>Continue with Google</h3>
+      </button>
+
+      <div class="footer-last"></div>
+
+      <div class="login-text3">
+        <h1>Don't have an account? <span>sign up</span></h1>
+      </div>
+    </section>
+
+    <div class="last-footer">
+      <hr />
+
+      <div class="login-footer-copyright">
+        <i class="fa fa-copyright" aria-hidden="true"></i>
+        <h5>PurgilSwap</h5>
+        <p>2002</p>
+      </div>
+    </div>
+  </body>
 </html>
