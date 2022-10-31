@@ -33,4 +33,9 @@ app.get("/liveChat", (req, res) => {
 
 app.get("/market", (req, res) => {
   res.render("market", { title: "main" });
+app.get("/marketMain", (req, res) => {
+  res.render("marketMain", { title: "main" });
+});
+app.get("/market3", (req, res) => {
+  res.render("market3", { title: "main" });
 });
