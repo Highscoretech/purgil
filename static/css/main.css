@@ -141,11 +141,11 @@
   }
 
   .live-menu img {
-    width: 50px;
+    width: 65px;
     position: fixed;
     z-index: 1;
     left: 310px;
-    /* top: 580px; */
+    top: 577px;
   }
 
   .trade h3 {
@@ -851,5 +851,180 @@
   }
 
   .copyright i {
+  }
+
+  /* live section */
+  .liveChat-section {
+    background: #000000;
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+
+  .liveChat-section img {
+    /* padding-left: 20px; */
+  }
+  .liveChat-white-bg {
+    background: #ffffff;
+    width: 100%;
+    height: 290px;
+    position: absolute;
+    top: 160px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .liveChat-login {
+    background: #ffffff;
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    top: 135px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 5px 2px rgba(0, 0, 0, 0.678);
+  }
+  .live-section-top-icon {
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 10px;
+  }
+  .liveChat-blur-bg {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 410px;
+    position: absolute;
+    top: -120px;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .liveChat-section-text {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  .liveChat-section-icon {
+    position: absolute;
+    top: 65px;
+    right: 40px;
+    background-color: #666666;
+    padding: 9px;
+    border-radius: 50%;
+  }
+  .liveChat-section-text h2 {
+    margin-bottom: 0px;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .liveChat-section-text h3 {
+    margin-bottom: 0px;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 40px;
+  }
+  .liveChat-white-bg2 {
+    background: #ffffff;
+    width: 95%;
+    height: 280px;
+    position: absolute;
+    top: 10px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.678);
+    margin-left: 10px;
+  }
+  .liveChat-white-text h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    color: #000000;
+  }
+  .liveChat-white-text h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    color: #000000;
+  }
+  .liveChat-white-text h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    color: #1a0c3d;
+  }
+
+  .login-notice {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    column-gap: 10px;
+    align-items: center;
+  }
+
+  .login-notice h3 {
+    margin-bottom: 0px;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #59595c;
+  }
+
+  .liveChat-login button {
+    width: 80%;
+    padding: 3px;
+    background: #1a0c3d;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .liveChat-login button span {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+  .liveChat-login .continue-login button {
+    width: 80%;
+    padding: 3px;
+    background: #59595c;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .liveChat-login .continue-login button span {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #ffffff;
   }
 }

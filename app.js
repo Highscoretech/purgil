@@ -26,3 +26,11 @@ app.get("/login", (req, res) => {
 app.get("/main", (req, res) => {
   res.render("main", { title: "main" });
 });
+
+app.get("/liveChat", (req, res) => {
+  res.render("liveChat", { title: "main" });
+});
+
+app.get("/market", (req, res) => {
+  res.render("market", { title: "main" });
+});
