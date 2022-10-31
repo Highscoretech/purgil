@@ -26,3 +26,10 @@ app.get("/login", (req, res) => {
 app.get("/main", (req, res) => {
   res.render("main", { title: "main" });
 });
+
+app.get("/marketMain", (req, res) => {
+  res.render("marketMain", { title: "main" });
+});
+app.get("/market3", (req, res) => {
+  res.render("market3", { title: "main" });
+});
