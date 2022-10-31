@@ -1,59 +1,58 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <%- include('./partial/head.ejs') %>
-  <body
-    style="
-      height: 100vh;
-      background-image: linear-gradient(white 65%, rgb(143, 143, 143));
-    "
-  >
-    <div class="signup">
-      <p>&larr;</p>
-      <img src="./images/sigup logo.png" alt="" />
-    </div>
-    <div class="signup-img">
-      <img src="./images/welcome photo.png" />
-    </div>
-    <div class="signup-btn">
-      <h2>Login to your Account</h2>
-      <form class="form">
-        <div class="form-login">
-          <input type="email" name="email" placeholder="Email" />
-          <input type="password" name="password" placeholder="Password" />
-        </div>
-        <p class="login-forget">Forget password?</p>
-        <div class="btn-login">
-          <button class="btn">Login</button>
-          <div class="btn-arrow-login">
-            <p class="btn-arrow-arrow-login">&gt;</p>
+  <body style="background-color: rgba(32, 0, 50, 0.1)">
+    <section id="mobile">
+      <div class="login">
+        <div class="login-container">
+          <div class="cornerColor1"></div>
+          <div class="login-content">
+            <div class="logo">
+              <img src="./images/welcome photo.png" alt="" />
+            </div>
+            <h3>Login to your Account</h3>
+            <form action="#" method="post">
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <button type="submit">Continue</button>
+            </form>
+
+            <div class="visible-password">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+
+            <div class="login-text">
+              <h1>or</h1>
+            </div>
+            <div class="login-text2">
+              <h1>or sign in with</h1>
+            </div>
           </div>
         </div>
-      </form>
+      </div>
+      <div class="downLock"></div>
+      <div class="downLock1-2"></div>
 
-      <div class="footer-page">
-        <div class="footer-page-link">
-          <h2>or sign in with</h2>
-          <div class="social-icons">
-            <button class="btn-link">
-              <a href="google.com"><img src="./images/icons8-google.svg" /></a>
-            </button>
+      <button class="login-google-btn">
+        <img src="./images/google svg.svg" alt="" />
+        <h3>Continue with Google</h3>
+      </button>
 
-            <button class="btn-link">
-              <a href="facebook.com"
-                ><img src="./images/icons8-facebook.svg"
-              /></a>
-            </button>
+      <div class="footer-last"></div>
 
-            <button class="btn-link">
-              <a href="twitter.com"
-                ><img src="./images/icons8-twitter.svg"
-              /></a>
-            </button>
-          </div>
-        </div>
-        <p class="footer-text">Don't have an account <a href="#">sign up</a></p>
+      <div class="login-text3">
+        <h1>Don't have an account? <span>sign up</span></h1>
+      </div>
+    </section>
+
+    <div class="last-footer">
+      <hr />
+
+      <div class="login-footer-copyright">
+        <i class="fa fa-copyright" aria-hidden="true"></i>
+        <h5>PurgilSwap</h5>
+        <p>2002</p>
       </div>
     </div>
-    <script src="./js/script.js"></script>
   </body>
-</html> -->
+</html>
