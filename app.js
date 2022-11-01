@@ -26,6 +26,15 @@ app.get("/login", (req, res) => {
 app.get("/main", (req, res) => {
   res.render("main", { title: "main" });
 });
+app.get("/menu-bar-extention", (req, res) => {
+  res.render("menu-bar-extention", { title: "main" });
+});
+app.get("/menu-bar", (req, res) => {
+  res.render("menu-bar", { title: "main" });
+});
+app.get("/market_2", (req, res) => {
+  res.render("market_2", { title: "main" });
+});
 
 app.get("/liveChat", (req, res) => {
   res.render("liveChat", { title: "main" });
