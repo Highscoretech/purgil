@@ -12,6 +12,7 @@
     box-shadow: none;
     position: relative;
   }
+
   .cornerColor {
     position: absolute;
     width: 80px;
@@ -20,31 +21,7 @@
     background: #31ac00;
     border-radius: 0px 0px 0px 100px;
   }
-  .login {
-    position: relative;
-    height: 500px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 0px 0px 0px 90px;
-  }
-  .login-content {
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    padding-top: 120px;
-  }
-  .login-container {
-    position: relative;
-  }
 
-  .downLock {
-    width: 82px;
-    height: 82px;
-    background-color: #ffff;
-    position: absolute;
-    top: 5;
-    right: 0;
-  }
   .downLock1 {
     width: 84px;
     height: 84px;
@@ -54,10 +31,7 @@
     right: 0;
     border-radius: 0px 90px 0px 0px;
   }
-  /* .login-content .logo {
-    position: relative;
-    margin: 16px 0px;
-  } */
+
 
   .main img {
     width: 240px;
@@ -74,16 +48,18 @@
   }
 
   /* Hide scrollbar for IE, Edge and Firefox */
+
   .home-footer {
     -ms-overflow-style: none;
     scrollbar-width: none;
-  }
-
-  .home-footer {
     top: 550px;
     overflow-y: scroll;
     position: fixed;
     height: 43%;
+    text-align: center;
+    z-index: 100;
+    animation-name: welcome;
+    animation-duration: 4s;
   }
 
   .home-footer h1 {
@@ -124,16 +100,16 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    position: absolute;
-    margin-top: 10px;
-    left: 85px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 6px 70px 6px 70px;
     border-radius: 4px;
     background: #31ac00;
     box-shadow: 0 12px 23px -1px rgb(10, 4, 4);
     border: none;
-  }
-  #loading button {
+    width: 50%;
+    z-index: 100;
     font-family: "IBM Plex Sans Thai Looped";
     font-style: normal;
     font-weight: 500;
@@ -146,15 +122,11 @@
     animation-duration: 1s;
   }
 
-  .home-footer {
-    animation-name: welcome;
-    animation-duration: 4s;
-  }
-
   @keyframes welcome {
     from {
       transform: translateY(200px);
     }
+
     to {
       transform: translateY(-0.2px);
     }
@@ -164,6 +136,7 @@
     from {
       transform: translateY(200px);
     }
+
     to {
       transform: translateY(150px);
     }

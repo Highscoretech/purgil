@@ -8,11 +8,16 @@
     background: white;
   }
 
-  h6,
-  p {
-    padding: 0px !important;
-    margin: 0px !important;
-  }
+    /* .mainMarket h1,
+    .mainMarket h2,
+    .mainMarket h3,
+    .mainMarket h4,
+    .mainMarket h5,
+    .mainMarket h6,
+    .mainMarket p {
+        padding: 0px !important;
+        margin: 0px !important;
+    } */
 
   .mainMarket_logo {
     padding-top: 25px;
@@ -24,6 +29,7 @@
     border: 1px solid #1a0c3d;
     margin: 10px;
     border-radius: 10px;
+    
   }
 
   .market_input input {
@@ -32,6 +38,7 @@
     margin: 0px !important;
     box-shadow: none !important;
     padding: 2px !important;
+    border: none;
   }
 
   .marketHead_links {

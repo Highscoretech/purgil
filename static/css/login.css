@@ -22,7 +22,6 @@
   }
   .login {
     position: relative;
-
     height: 500px;
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -165,10 +164,10 @@
     bottom: 39px;
     width: 100%;
   }
-
+/* 
   form {
     margin: 20px 0px;
-  }
+  } */
   .login-page .input {
     text-align: center;
     justify-content: center;
@@ -183,8 +182,11 @@
     border-radius: 7px;
     margin: 16px 0px;
     box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.418);
+   line-height: normal!important;
   }
-  form button {
+
+ 
+  .login button {
     background: #200032;
     color: #ffff;
     width: 90%;
@@ -193,8 +195,9 @@
     padding: 6px;
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.678);
     margin: 16px 0px;
+    line-height: normal!important;
   }
-  form button:hover {
+  /* form button:hover {
     background-color: #450e64;
-  }
+  } */
 }
