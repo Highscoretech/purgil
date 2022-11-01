@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main_container_head{
+background: #F1F2F9;
+border-radius: 20px;
+}
+.nav_logo{
+    display: flex;
+}
+.main_logo{
+ width: 80%; 
+ padding-top: 8%;
+ padding-left: 5%;
+}
+.m_market{
+    letter-spacing: 2px;
+ padding-left: 8%;
+margin-top: 20px;
+ margin-bottom: 20px;
+
+}
+.search_con{
+    display: flex;
+}
+.searching {
+background: white;
+border: 1px solid #1A0C3D;
+border-radius: 8px;
+width: 95%;
+padding-left: 5px;
+position: relative;
+left: 2.5%;
+}
+
+.searching input{
+    outline: none!important;
+    box-shadow: none!important;
+    /* border: none!important; */
+    padding-left: 2%;
+    font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 10px;
+margin: 0px!important;
+
+}
+.main_contents{
+    padding-bottom: 5%!important;
+}
+.m_nav{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+   margin-top: 2px;
+    
+}
+.favour{
+background: rgba(4, 196, 42, 0.4);
+border-radius: 4px;
+
+}
+.favour a{
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+/* line-height: 10px; */
+/* identical to box height, or 83% */
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+color: #31AC00;
+padding: 2px;
+text-decoration: none;
+}
+.all_cry, .spot_mark, .new_li{
+    font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+color: #59595C;
+}
+.all_cry a, .spot_mark a, .new_li a{
+    text-decoration: none;
+color: #59595C;
+
+}
+.section_header{
+background: #F1F2F9 !important;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+border-radius: 12px;
+width: 99%;
+padding-top: 10px;
+margin-bottom: 15px;
+}
+.sec_conts{
+display: flex;
+text-align: center;
+justify-content: center;
+gap: 55px;
+padding-top: 30px;
+
+}
+.namer, .price_24h, .caps{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.02em;
+color: rgba(0, 0, 0, 0.69);
+}
+.search_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 20px;
+}
+.search12{
+    position: absolute;
+    padding-left: 32%;
+}
+.no_result{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.5px;
+line-height: 10px;
+align-items: center;
+letter-spacing: 0.02em;
+color: rgba(0, 0, 0, 0.69);
+text-align: center;
+justify-content: center;
+padding-top: 10px;
+}
+.but_mess{
+    padding-bottom: 5%;
+}
+.add_fav{
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+.buttt{
+background: #04C42A;
+border-radius: 4px;
+border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 5px;
+padding: 2px 8px;
+}
+
+
+
+
+
+
