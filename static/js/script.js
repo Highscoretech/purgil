@@ -95,3 +95,9 @@ gsap.utils.toArray(".show-item").forEach(function (elem) {
     },
   });
 });
+
+
+
+function main(){
+  window.location = "menu-bar"
+}

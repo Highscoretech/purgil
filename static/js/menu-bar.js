@@ -60,7 +60,7 @@ function buy(k){
    
     come = "two"
   }
-  else if(come == "two"){g
+  else if(come == "two"){
    
     finance.style.display = "none"
     come = "one"
@@ -90,6 +90,11 @@ addEventListener(click, ()=>{
   go = "two"
  }
 })
+
+
+function closed(){
+  window.location = "main"
+}
 
 
 // const product1 = document.getElementById('product-arrow');

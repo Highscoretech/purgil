@@ -38,10 +38,14 @@
         font-weight: bold;
     }
 
-    .nav-login{
+    .nav-git{
         text-align: center;
         margin: 20px 0px;
         display: block;
+    }
+    .nav-login{
+        justify-content: center;
+        text-align: center;
     }
 .login{
     font-family: 'IBM Plex Sans Thai Looped';
@@ -71,6 +75,7 @@
 }
 .cryptoImage{
    width: 10%;
+   padding-left: 2%;
 }
 .cryptoImage1{
     position: relative;
@@ -98,8 +103,14 @@
     margin: 8px 0px;
 }
 .crypto-arrow{
-  
+  padding-right: 3%;
 }
+.ex_arrow{
+    padding-right: 3%;
+}
+/* .crypto-arrow_5{
+ 
+} */
 
 .paying{
  width: 100%; 
@@ -185,6 +196,7 @@ color: #666666;
 }
 #market{
     display: flex;
+    padding-left: 3%;
 }
 .market{
     font-family: 'IBM Plex Sans Thai Looped';
@@ -209,6 +221,50 @@ color: #666666;
     font-size: 14px;
     line-height: 10px;
     letter-spacing: 0.09em;
+   
+}
+.trader a{
+    text-decoration: none;
+    color: #666666;
+}
+.exchan a, .aka a{
+    text-decoration: none;
+    color: #666666;
+}
+.market a{
+    text-decoration: none;
+    color: #666666;
+}
+.p2p-1 a, .buy1 a, .buy1 a{
+    text-decoration: none;
+    color: #666666; 
+}
+.loan a, .swap a{
+    text-decoration: none;
+    color: #666666;
+}
+.trader-12 a, .trader-14 a, .trader-16 a, .trader18 a{
+    text-decoration: none;
+    color: #666666;  
+}
+.air a, .farmer a, .simpler a{
+    text-decoration: none;
+    color: #666666;
+}
+.earning a{
+    text-decoration: none;
+    color: #666666;
+}
+.theme a{
+    text-decoration: none;
+    color: #666666;
+}
+.product a{
+    text-decoration: none;
+    color: #666666; 
+}
+.finance a{
+    text-decoration: none;
     color: #666666;
 }
 .down_ar{
@@ -216,18 +272,23 @@ color: #666666;
    left: 0.7rem;
    bottom: 0.4rem;
 }
-#usd{
-   /* right: 0.6rem;
-    position: relative; */
+.earn-arrow{
+    padding-right: 3%;
+}
+.trade-arrow{
+    padding-right: 3%;
+}
+.dolla-img{
+    width: 7%;
+}
+.prod-arrow{
+    padding-right: 3%;
+}
+.fina-arrow{
+    padding-right: 3%;
 }
 .usd{
-    font-family: 'IBM Plex Sans Thai Looped';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 10px;
-    letter-spacing: 0.09em;
-    color: #666666;
+  padding-top: 2%;  
 }
 .trader-12{
     font-family: 'IBM Plex Sans Thai Looped';
@@ -338,9 +399,11 @@ color: #666666;
     }
     .trading-img{
         width: 10%;
+        padding-left: 3%;
     }
     .earn-img{
         width: 10%;
+        padding-left: 3%;
     }
     .trading{
         width: 90%;
@@ -453,6 +516,7 @@ color: #666666;
         }
         .fina-img{
             width: 10%;
+            padding-left: 2%;
         }
         .finan{
             width: 100%;
@@ -699,6 +763,7 @@ color: #666666;
       }
       #product{
         display: flex;
+        padding-left: 2%;
       }
       .prod-img{
         width: 10%;
@@ -741,7 +806,8 @@ color: #666666;
       }
       .themes{
         width: 80%;
-        padding-top: 15px;
+        padding-top: 4px;
+       
        
       }
       .prod-img{
@@ -770,19 +836,24 @@ color: #666666;
       }
       .theme-img{
         width: 10%;
-        padding-top: 5px;
+        padding-left: 2%;
       }
       #world{
         display: flex;
       }
-      .world_img{
-     width: 10%;
-      }
       .eng{
-        padding-top: 5px;
+        padding-top: 2%;
+      }
+      .usd1{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 0.09em;
+        color: #666666
       }
       .english{
-        padding-top: 5px;
         font-family: 'IBM Plex Sans Thai Looped';
         font-style: normal;
         font-weight: 600;
@@ -793,11 +864,14 @@ color: #666666;
       }
       #dolla{
         display: flex;
+        padding-left: 3%;
       }
-      .dolla-img{
-        width: 7%;
-        padding-left: 0.2rem;
+      .english a, .usd1 a{
+        text-decoration: none;
+        color: #666666
       }
+      }
+     
      
   
       
