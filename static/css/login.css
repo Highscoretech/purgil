@@ -169,12 +169,12 @@
   form {
     margin: 20px 0px;
   }
-  .input {
+  .login-page .input {
     text-align: center;
     justify-content: center;
     justify-items: center;
   }
-  input {
+  .login-page input {
     width: 90%;
     padding: 6px;
     outline: none;
