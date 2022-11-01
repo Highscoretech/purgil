@@ -1,10 +1,11 @@
 let loading = document.getElementById("loading");
-console.log(loading);
+
 let mainPage = document.querySelector(".main-page");
-console.log(mainPage);
+
 let proceed = document.getElementById("load");
-console.log(loading);
-console.log(proceed);
+
+
+let liveChat = document.querySelector(".liveChat-display");
 
 setTimeout(() => {
   loading.style.display = "block";
@@ -28,6 +29,21 @@ setTimeout(() => {
   ></div>
 </div>; */
 }
+
+
+
+function openLiveChat(){
+  // mainPage.style.display = "none"
+
+  liveChat.style.display ="block"
+ 
+ 
+}
+
+function closeLiveChat() {
+  liveChat.style.display ="none"
+}
+
 
 const openMainPage = function () {
   mainPage.style.display = "block";

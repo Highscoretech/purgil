@@ -12,7 +12,6 @@
     box-shadow: none;
     position: relative;
   }
-  .cornerColor1,
   .cornerColor3 {
     position: absolute;
     width: 80px;
@@ -21,27 +20,26 @@
     background: rgba(32, 0, 50, 0.1);
     border-radius: 0px 0px 0px 100px;
   }
-  .login,
+  
   .signup {
     position: relative;
-
     height: 500px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 0px 90px;
   }
-  .login-content,
+
   .signup-content {
     text-align: center;
     justify-content: center;
     justify-items: center;
     padding-top: 120px;
   }
-  .login-container,
+ 
   .signup-container {
     position: relative;
   }
-  .login-content .logo img,
+  
   .signup-content .logo img {
     width: 153px;
     height: 25px;
@@ -65,17 +63,17 @@
     right: 0;
     border-radius: 0px 90px 0px 0px;
   }
-  .login-content .logo,
+ 
   .signup-content .logo {
     position: relative;
     margin: 16px 0px;
   }
-  .visible-password {
+  /* .visible-password {
     position: absolute;
     right: 35px;
     top: 300px;
-  }
-  .login-content h3,
+  } */
+  
   .signup-content h3 {
     font-weight: bolder;
     letter-spacing: 2px;
@@ -85,21 +83,20 @@
     padding: 0px 0px;
     font-size: 14px;
   }
-  .login-text h1,
-  .signup-text h1 {
+   .signup-text h1 {
     margin-top: -5px;
     font-size: 21px;
     color: #000000;
     font-weight: 600;
   }
-  .login-text2 h1,
+ 
   .signup-text h1 {
     margin-top: 0px;
     font-size: 17px;
     color: #000000;
     font-weight: 600;
   }
-  .login-text3 h1,
+ 
   .signup-text3 h1 {
     margin-top: 0px;
     font-size: 17px;
@@ -109,11 +106,11 @@
     left: 67px;
     top: 575px;
   }
-  .login-text3 h1 span,
+ 
   .signup-text3 h1 span {
     color: #00941d;
   }
-  .last-footer .login-footer-copyright,
+  
   .last-footer .signup-footer-copyright {
     position: absolute;
     display: flex;
@@ -123,25 +120,25 @@
     justify-content: center;
     left: 120px;
   }
-  .login-footer-copyright h5,
+ 
   .signup-footer-copyright h5 {
     color: #666666;
     font-size: 16px;
     font-weight: 500;
   }
-  .login-footer-copyright p,
+  
   .signup-footer-copyright p {
     color: #666666;
     font-size: 15px;
     font-weight: 500;
   }
-  .login-footer-copyright i,
+  
   .signup-footer-copyright i {
     color: #666666;
     font-size: 15px;
     margin-top: 1px;
   }
-  .login-google-btn,
+ 
   .signup-google-btn {
     background: #9f9f9fba;
     width: 85%;
@@ -157,7 +154,7 @@
     left: 20px;
     top: 510px;
   }
-  .login-google-btn h3,
+
   .signup-google-btn h3 {
     font-family: "IBM Plex Sans Thai Looped", sans-serif;
     font-style: normal;
@@ -169,7 +166,6 @@
     padding-top: 8px;
   }
 
-  .login-google-btn img,
   .signup-google-btn img {
     padding: 2px 1px;
     width: 20px;
@@ -180,15 +176,15 @@
     width: 100%;
   }
 
-  form {
+  /* form {
     margin: 20px 0px;
-  }
+  } */
   .input {
     text-align: center;
     justify-content: center;
     justify-items: center;
   }
-  input {
+  .signup input {
     width: 90%;
     padding: 6px;
     outline: none;
@@ -197,8 +193,10 @@
     border-radius: 7px;
     margin: 16px 0px;
     box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.418);
+ 
   }
-  form button {
+  
+ .signup button {
     background: #200032;
     color: #ffff;
     width: 90%;
@@ -208,7 +206,7 @@
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.678);
     margin: 16px 0px;
   }
-  form button:hover {
+  /* form button:hover {
     background-color: #450e64;
-  }
+  } */
 }

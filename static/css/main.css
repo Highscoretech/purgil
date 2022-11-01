@@ -147,11 +147,11 @@
   }
 
   .live-menu img {
-    width: 65px;
+    width: 20%;
     position: fixed;
     z-index: 1;
-    left: 310px;
-    top: 577px;
+   right: 1%;
+    top: 80%;
   }
 
   .trade h3 {
@@ -863,6 +863,13 @@
   }
 
   /* live section */
+
+  .liveChat-display{
+position: fixed;
+top:55px;
+z-index: 100;
+
+  }
   .liveChat-section {
     background: #000000;
     width: 100%;
@@ -873,6 +880,7 @@
   .liveChat-section img {
     /* padding-left: 20px; */
   }
+
   .liveChat-white-bg {
     background: #ffffff;
     width: 100%;
