@@ -44,3 +44,6 @@ app.get("/marketMain", (req, res) => {
 app.get("/market3", (req, res) => {
   res.render("market3", { title: "main" });
 });
+app.get("/buy_with_card", (req, res) => {
+  res.render("buy_with_card", { title: "main" });
+});

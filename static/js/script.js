@@ -1,4 +1,6 @@
 let loading = document.getElementById("loading");
+let relate = document.getElementById("relate_head");
+
 
 let mainPage = document.querySelector(".main-page");
 
@@ -117,3 +119,8 @@ gsap.utils.toArray(".show-item").forEach(function (elem) {
 function main(){
   window.location = "menu-bar"
 }
+
+function tourch(){
+  relate_head.style.display = "block"
+};
+

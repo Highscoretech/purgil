@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.three_div{
+    padding-left: 10%;
+    padding-top: 2%;
+}
+.buy_header{
+flex-wrap: nowrap;
+flex: auto;
+line-height: 15px;
+}
+.by_crypto{
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+
+align-items: center;
+letter-spacing: 0.1em;
+color: #000000;
+margin: 25px;
+width: 90%;
+margin-bottom: 10%;
+/* margin-top: 20%; */
+}
+.head_buy_sell{
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+letter-spacing: 0.1em;
+gap: 50%;
+margin: 30px;
+}
+.head_buy_sell a{
+    color: #000000;
+    text-decoration: none;
+}
+.green_div{
+position: absolute;
+width: 114px;
+height: 0px;
+left: 25px;
+top: 160px;
+border: 1px solid #04C42A;
+}
+.head_ATM{
+    margin-left: auto;
+    margin-right: auto;
+    /* position: relative; */
+    width: 93%;
+    height: 205px;
+    /* left: 14px; */
+    background: linear-gradient(233.49deg, #200032 32.47%, rgba(0, 2, 50, 0.64) 70.12%, rgba(32, 0, 50, 0.69) 105.9%);
+    border-radius: 12px; 
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.relate_head{
+position: relative;
+}
+.secon_head{
+position: absolute;
+ top: 25px;
+ left: 15px;
+
+}
+.head_1_ATM{
+box-sizing: border-box;
+width: 319px;
+height: 66px;
+border: 1px solid #00941D;
+border-radius: 9px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.bb_header{
+
+}
+.relate_spend_1{
+    position: relative;
+}
+.absolut_spend{
+    position: relative;
+    /* top: 55px; */
+    left: 25px;
+
+}
+.spned{
+color: white;
+}
+.relate_nigeria{
+    /* position: relative; */
+    padding-left: 23%;
+}
+.nigeria{
+width: 82.97px;
+height: 25.42px;
+background: #DCDAE5;
+border-radius: 2px;
+position: relative;
+bottom: 5px;
+}
+.niger_ngn{
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 10px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+color: #00941D;
+padding-top: 5px;
+padding-left: 5px;
+
+}
+.niger_ngn_1{
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 10px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+color: #00941D;
+padding-top: 10px;
+padding-left: 10px;
+
+}
+.ngn_greater{
+    color: #000000;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.ngn_greater_1{
+    color: #000000;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.spend_1{
+/* position: relative; */
+/* top: 36px;
+left: 20px; */
+}
+.spend_25{
+    position: relative;
+}
+.absolut_spend_25{
+    display: flex;
+    position: absolute;
+    top: 61px;
+    left: 25px;
+}
+.absolut_spend{
+    position: absolute;
+    top: 38px;
+}
+.absolut{
+    display: flex;
+    position: absolute;
+    top: 50px;
+}
+.related_spend{
+  
+}
+.spend_26{
+    position: absolute;
+    display: flex;
+    top: 115px;
+    left: 30px;
+    width: 85%;
+}
+.current_inputss{
+    /* width: 50%; */
+}
+.relate-spending_1{
+    position: relative;
+}
+::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+.current_inputss > input{
+    background-color: transparent;
+    border: none;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    outline: none;
+    /* border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove; */
+
+}
+.tweenty_5{
+    width: 16%;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+.hyphen{
+    width: 6%; 
+}
+.tweenty_5000{
+    width: 50%;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+.tweenty_00{
+    width: 71%;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
+.spend_2{
+    padding-top: 12%;
+}
+.recievedd{
+   padding-top: 80px;
+   padding-left: 25px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.sspp{
+ font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 10px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+/* position: relative;
+top: 31px;
+left: 25px; */
+}
+.bittcoin{
+width: 17px;
+height: 18px;
+background: #F7931A;
+border-radius: 50%;
+}
+.bbttcc{
+    padding-bottom: 5px;
+    padding-right: 3px;
+}
+.buy_and_sell_cry{
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0.1em;
+color: #000000;
+margin-top: 20%;
+}
+.is_a_safe{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #59595C;  
+    width: 99%;
+}
+.header_contact_1{
+    padding-top: 15px;
+    padding-left: 3%;
+}
+.header_contact{
+background: rgba(159, 159, 159, 0.73);
+border-radius: 7px;
+width: 90%;
+height: 90px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5%;
+}
+.header_contact_1{
+background: rgba(159, 159, 159, 0.73);
+border-radius: 7px;
+width: 90%;
+height: 90px;
+margin-left: auto;
+margin-right: auto;
+}
+.contact_ima{
+    margin: 15px;
+    padding-top: 3.7%;
+}
+.verifies{
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+    color: #1A0C3D; 
+}
+.identities{
+ margin: 15px;
+}
+.identities_1{
+ margin: 10px;
+}
+.identities a, .identities_1 a{
+    text-decoration: none;
+}
+.contact_ima_1{
+background: #200032;
+width: 34px;
+height: 34px;
+border-radius: 50%;
+}
+.contact111{
+padding-top: 10px;
+}
+.contact_ima_2{
+width: 11px;
+height: 13px;
+background: #59595C;
+transform: rotate(-38.85deg);
+margin-left: auto;
+margin-right: auto;
+}
+.fund_your{
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0.1em;
+color: #000000
+}
+.users_can{
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 23px;
+letter-spacing: 0.1em;
+color: #59595C;
+}
+.fix_butt{
+background: #200032;
+border-radius: 4px;
+width: 345px;
+height: 51px;
+justify-content: center;
+text-align: center;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: 0.07em;
+color: #FFFFFF;
+position: fixed;
+bottom: 4%;
+}
+.fixed_button{
+padding-left: 3.8%;
+}
